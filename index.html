@@ -1,7 +1,24 @@
-<h1>Shadow DOM example</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shadow DOM demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
 
-<p>This text is in the main document</p>
+    <h1>Shadow DOM example</h1>
 
+    <p>This text is in the main document</p>
 
+    <shadow-dom-element 
+        text="This text is append to the document using shadow DOM functionality">
+    </shadow-dom-element>
 
-<p>This text is also in the main document</p>
+    <p>This text is also in the main document</p>
+
+</body>
+</html>
